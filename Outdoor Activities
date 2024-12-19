@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Outdoor Activities</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page-background">
+
+    <!-- Navigation Back to Professional Page -->
+    <div class="navbar">
+        <a href="index.html">Back to Professional Page</a>
+    </div>
+
+    <!-- Header Section -->
+    <header class="header">
+        <h1>My Favorite Outdoor Activities</h1>
+        <p>Here are some of my favorite activities that I love to do outdoors!:</p>
+    </header>
+
+    <!-- Ordered List with Embedded Unordered List -->
+    <section class="activities">
+        <h2>Top 3 Outdoor Activities</h2>
+        <ol>
+            <li>Hiking
+                <ul>
+                    <li>Trail hiking</li>
+                    <li>Mountain hiking</li>
+                    <li>Beach hiking</li>
+                </ul>
+            </li>
+            <li>Cycling
+                <ul>
+                    <li>Mountain biking</li>
+                    <li>Road cycling</li>
+                </ul>
+            </li>
+            <li>Camping
+                <ul>
+                    <li>Backpacking</li>
+                    <li>Glamping</li>
+                </ul>
+            </li>
+        </ol>
+    </section>
+
+    <!-- Section with Images -->
+    <section class="gallery">
+        <h2>Outdoor Photos</h2>
+        <div class="image-container">
+            <img src="hiking.jpg" alt="Hiking" class="activity-image">
+            <img src="cycling.jpg" alt="Cycling" class="activity-image">
+            <img src="camping.jpg" alt="Camping" class="activity-image">
+        </div>
+    </section>
+
+    <!-- YouTube Video Embed -->
+    <section class="video-section">
+        <h2>Watch My Favorite Hiking Adventure</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/T5lq8jdo3zo" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <!-- Anchor to Scroll to a Specific Section -->
+    <section class="anchor">
+        <h2><a href="#end-of-page">Go to the end of the page</a></h2>
+    </section>
+
+    <!-- End Section -->
+    <section id="end-of-page" class="end-section">
+        <h2>Thank you for visiting!</h2>
+    </section>
+
+    <!-- Embed Tableau Graph -->
+    <section class="tableau-graph">
+        <h2>Interactive Tableau Graph</h2>
+        <div class="tableau-container">
+            <!-- Replace me!!! -->
+            <iframe src="https://public.tableau.com/views/YOUR_TABLEAU_VIZ_LINK" width="800" height="600"></iframe>
+        </div>
+    </section>
+
+</body>
+</html>
