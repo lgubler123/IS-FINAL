@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio and Projects</title>
+    <!-- Bootstrap CSS CDN for Styling -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link to your custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resume.html">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="from-scratch.html">Outdoor Activities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="web-app.html">Web App</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero bg-light text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Welcome to My Portfolio</h1>
+            <p class="lead">A collection of my work and projects</p>
+            <a href="resume.html" class="btn btn-primary btn-lg">View My Resume</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about py-5 bg-secondary text-white">
+        <div class="container">
+            <h2 class="text-center">About Me</h2>
+            <p class="lead text-center">I am passionate about technology and always looking for ways to improve my skills. Below you'll find links to my resume and one of my fun web apps!</p>
+        </div>
+    </section>
+
+    <!-- Project Links Section -->
+    <section class="projects py-5">
+        <div class="container">
+            <h2 class="text-center">Explore My Work</h2>
+            <div class="row">
+                <!-- Resume Link -->
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="resume-icon.png" class="card-img-top" alt="Resume">
+                        <div class="card-body">
+                            <h5 class="card-title">Resume</h5>
+                            <p class="card-text">Take a look at my professional background, skills, and experience.</p>
+                            <a href="resume.html" class="btn btn-primary">View Resume</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Web App Link -->
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="webapp-icon.png" class="card-img-top" alt="Web App">
+                        <div class="card-body">
+                            <h5 class="card-title">Web App</h5>
+                            <p class="card-text">Check out a small web app I created, like a joke generator or a number guessing game.</p>
+                            <a href="web-app.html" class="btn btn-primary">Try the App</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white py-3 text-center">
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
