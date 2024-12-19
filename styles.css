@@ -1,0 +1,97 @@
+/* General Page Styles */
+body.page-background {
+    background-color: #f0f8ff; /* Light blue background */
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4682b4;
+    color: white;
+}
+
+.header h1 {
+    font-size: 3em;
+}
+
+.header p {
+    font-size: 1.2em;
+}
+
+/* Activities List Styles */
+.activities {
+    padding: 20px;
+}
+
+.activities ol {
+    padding-left: 40px;
+}
+
+.activities ul {
+    list-style-type: square;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+/* Image Gallery Styles */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.activity-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Video Section Styles */
+.video-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.video-section iframe {
+    max-width: 100%;
+    height: 315px;
+}
+
+/* Anchor Section Styles */
+.anchor {
+    text-align: center;
+    padding: 20px;
+}
+
+.anchor a {
+    font-size: 1.2em;
+    color: #4682b4;
+    text-decoration: none;
+}
+
+/* End Section Styles */
+.end-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #4682b4;
+    color: white;
+}
+
+/* Tableau Embed Styles */
+.tableau-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.tableau-container iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+}
