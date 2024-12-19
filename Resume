@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEJgPhbYQadO7O0wOVGR0qDbJf6qjI1pjjAATLE61jY9au1QzVx3j9yVYdXkx" crossorigin="anonymous">
+</head>
+<body class="bg-light">
+    <div class="container py-5">
+        <!-- Header Section -->
+        <header class="text-center mb-4">
+            <h1 class="display-4 text-primary">John Doe</h1>
+            <p class="lead text-muted">Email: john.doe@example.com | Phone: (123) 456-7890 | LinkedIn: linkedin.com/in/johndoe</p>
+        </header>
+
+        <!-- Objective Section -->
+        <section class="mb-5">
+            <h2 class="h3 text-dark">Objective</h2>
+            <p>I am a highly motivated and skilled software developer with experience in web technologies, seeking to leverage my expertise in front-end and back-end development to contribute to a dynamic team. Passionate about learning and building innovative solutions to complex problems.</p>
+        </section>
+
+        <!-- Education Section -->
+        <section class="mb-5">
+            <h2 class="h3 text-dark">Education</h2>
+            <ul class="list-unstyled">
+                <li class="mb-4">
+                    <h5 class="fw-bold">Bachelor of Science in Computer Science</h5>
+                    <div><span class="text-muted">University of XYZ</span> <span class="text-muted">| May 2023</span></div>
+                    <ul class="list-unstyled">
+                        <li>GPA: 3.8/4.0</li>
+                        <li>Relevant Coursework: Data Structures, Web Development, Algorithms, Databases</li>
+                    </ul>
+                </li>
+                <li class="mb-4">
+                    <h5 class="fw-bold">Associate of Science in Information Technology</h5>
+                    <div><span class="text-muted">XYZ Community College</span> <span class="text-muted">| May 2020</span></div>
+                    <ul class="list-unstyled">
+                        <li>GPA: 3.7/4.0</li>
+                        <li>Relevant Coursework: Networking, System Administration, Java Programming</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section class="mb-5">
+            <h2 class="h3 text-dark">Work Experience</h2>
+            <ul class="list-unstyled">
+                <li class="mb-4">
+                    <h5 class="fw-bold">Software Developer Intern</h5>
+                    <div><span class="text-muted">ABC Tech Solutions</span> <span class="text-muted">| June 2022 – August 2022</span></div>
+                    <ul>
+                        <li>Developed responsive web applications using HTML, CSS, JavaScript, and React.</li>
+                        <li>Collaborated with a team of developers to implement new features and fix bugs in existing code.</li>
+                        <li>Contributed to backend development using Node.js and MongoDB.</li>
+                    </ul>
+                </li>
+                <li class="mb-4">
+                    <h5 class="fw-bold">Junior Web Developer</h5>
+                    <div><span class="text-muted">XYZ Web Design</span> <span class="text-muted">| July 2020 – May 2021</span></div>
+                    <ul>
+                        <li>Built and maintained websites for clients using WordPress, HTML5, CSS3, and JavaScript.</li>
+                        <li>Worked with the design team to implement custom features and optimize user interfaces.</li>
+                        <li>Performed regular website testing and troubleshooting to ensure high performance and security.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="mb-5">
+            <h2 class="h3 text-dark">Skills</h2>
+            <ul class="list-inline">
+                <li class="list-inline-item bg-light rounded p-2 mb-2">HTML</li>
+                <li class="list-inline-item bg-light rounded p-2 mb-2">CSS</li>
+                <li class="list-inline-item bg-light rounded p-2 mb-2">JavaScript</li>
+                <li class="list-inline-item bg-light rounded p-2 mb-2">React</li>
+                <li class="list-inline-item bg-light rounded p-2 mb-2">Node.js</li>
+                <li class="list-inline-item bg-light rounded p-2 mb-2">Python</li>
+                <li class="list-inline-item bg-light rounded p-2 mb-2">Git</li>
+            </ul>
+        </section>
+
+        <!-- Awards Section -->
+        <section class="mb-5">
+            <h2 class="h3 text-dark">Awards & Honors</h2>
+            <ul class="list-unstyled">
+                <li class="bg-light p-3 mb-3 rounded">Dean's List - University of XYZ (2021, 2022)</li>
+                <li class="bg-light p-3 mb-3 rounded">First Place in Hackathon - XYZ University (2022)</li>
+                <li class="bg-light p-3 mb-3 rounded">Certificate of Excellence in Web Development - XYZ Coding Bootcamp (2020)</li>
+            </ul>
+        </section>
+    </div>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="from-scratch.html">Outdoor Activities</a></li> <!-- Link to your from-scratch page -->
+    </ul>
+</nav>
+
+
+    <!-- Bootstrap JS (Optional, for interactive components like modals, dropdowns, etc.) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0+2ea7Xb8V2EXFzLKhp6Bq4w/xbg6Ypp7y1VTrpa4pFgiK0F" crossorigin="anonymous"></script>
+</body>
+</html>
